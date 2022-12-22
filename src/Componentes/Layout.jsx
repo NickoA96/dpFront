@@ -6,7 +6,7 @@ const Layout = () => {
     return (
         <nav className="navbar">
             <NavLink
-                to="/"
+                to="/*"
                 className={({isActive})=>isActive ? 'link active' : 'link'}>
                 Home
             </NavLink>
